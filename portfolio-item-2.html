@@ -34,28 +34,30 @@
 
         <section class="intro">
             <h1 class="section__title section__title--intro">
-                The Blackjack Game<strong>Javascript</strong>
+                Chat Room<strong>Python</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">Versione semplificata<br> del gioco del blackjack</p>
-            <img src="img/blackjack.png" alt="" class="intro__img">
+            <p class="section__subtitle section__subtitle--intro">Chat Client-Server<br> TCP protocol</p>
+            <img src="img/chat-icon.png" alt="" class="intro__img">
         </section>
         
         <div class="portfolio-item-individual">
             <h3 style="text-align: center; position: relative;" >Descrizione del progetto</h3>
             <p>
-                Il progetto simula una versione semplificata del gioco del blackjack.
-                Il turno iniziale spetta all'utente che premendo il tasto <b>Hit</b> dà il via al gioco.
-                Al termine della propria giocata l'utente preme il tasto <b>Stand</b> cedendo così il turno al computer.
-                Una volta che il computer termina di giocare si confrontano i due punteggi e si seleziona il vincitore.
-                Infine la tabella contenente il numero di vittorie-sconfitte-pareggi viene aggiornata. 
+                L'applicativo permette di chattare contemporaneamente con più utenti collegati ad un server. 
+                Ciascun utente prima di entrare nella chat-room è invitato ad inserire il proprio nickname in modo 
+                tale da poter essere riconosciuto. Ogni volta che un nuovo utente si collega al server la sua paretcipazione
+                viene notificata all'intera chat-room. 
+                L'applicativo è composto da due elementi principali: un <b>Server</b> ed un <b>Client</b>.
+                Il server rimane in costante ascolto per fornire la connessione ad eventuali client che si vogliono collegare.
             </p>
-            <img src="img/gameplay.png" alt="gameplay">
+            <img src="img/ChatRoom.PNG" alt="chatroom">
             <p>
-                Il funzionamento del programma è realizzato in <b>Javascript</b> mentre l'interfaccia grafica dedicata
-                all'interazione con l'utente è stata realizzata in <b>HTML</b>,<b>CSS</b> e <b>Bootstrap</b>. 
+                Il funzionamento del gioco è realizzato in <b>Python</b> attraverso l'utilizzo del modulo <b>socket</b> e il 
+                protocollo <b>TCP</b>.
+                L'interfaccia utente è stata realizzata con la libreria grafica di python: <b>Tkinter</b>
             </p>
             <p style="text-align: center;">
-                <a href="https://github.com/singhkp98/blackjack-javascript" class="btn">Vai al codice</a>
+                <a href="https://github.com/singhkp98/chat-room-python" class="btn">Vai al codice</a>
             </p>
             
         </div>
